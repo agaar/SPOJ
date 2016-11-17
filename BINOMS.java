@@ -26,7 +26,7 @@ public class BINOMS {
 
                 result = result * tab1[j-1] / (tab2[j-1] * tab3[j-1]);
             }
-            int numberOfSubsets = (int)(result+0.5);
+            int numberOfSubsets = (int)(result + 0.5);      
             System.out.println(numberOfSubsets);
         }
     }
